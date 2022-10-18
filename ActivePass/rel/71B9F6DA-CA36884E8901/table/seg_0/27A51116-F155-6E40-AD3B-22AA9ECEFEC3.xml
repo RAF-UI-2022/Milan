@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27A51116-F155-6E40-AD3B-22AA9ECEFEC3" name="Lokacija">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:07:14 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Država" id="63E8D3CC-BE62-0869-C10C-2217FC85E181">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:09:27 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Grad" id="E6F8D1B5-50D8-15F5-0DBC-DE9E1515D1D0">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:09:27 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa" id="0052DC76-03A7-00FB-0D55-B4A805ECF3D0">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:09:27 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GPS koordinate" id="8C672875-BBC4-9D88-BA9E-1FF0D39670A7">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:09:27 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Objerkat_ID objekta" id="80806568-873F-2DDC-A49E-B27C2DCABDD8">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:21:44 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3D5282E-AAEA-AF04-A546-AB0581319F88" name="Lokacija_PK">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:09:27 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C672875-BBC4-9D88-BA9E-1FF0D39670A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

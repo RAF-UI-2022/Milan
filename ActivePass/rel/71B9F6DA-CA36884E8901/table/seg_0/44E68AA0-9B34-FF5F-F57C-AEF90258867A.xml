@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44E68AA0-9B34-FF5F-F57C-AEF90258867A" name="Tip Objekta">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:09:39 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID tipa" id="7F488778-7ABD-B6E1-26B8-04EF98006B8B">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:11:13 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime" id="554BE716-B344-6C1F-14F4-BBD33311F987">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:11:13 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8189FF9D-6AEA-6E34-0DA8-08654E25CBF3" name="Tip Objekta_PK">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:11:13 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F488778-7ABD-B6E1-26B8-04EF98006B8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

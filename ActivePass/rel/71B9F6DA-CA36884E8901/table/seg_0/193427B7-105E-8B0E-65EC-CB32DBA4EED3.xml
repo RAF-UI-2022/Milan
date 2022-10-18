@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="193427B7-105E-8B0E-65EC-CB32DBA4EED3" name="Saradnici">
+<createdBy>test</createdBy>
+<createdTime>2022-10-17 18:20:23 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ime Kompanije" id="38467826-682E-5B95-5D90-3519BD921065">
+<createdBy>test</createdBy>
+<createdTime>2022-10-17 18:27:44 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID Saradnika" id="569E5CE9-2F58-53B3-7A47-42046DD13D35">
+<createdBy>test</createdBy>
+<createdTime>2022-10-17 18:27:44 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DA77EAE8-A6D3-C345-EADC-1AB89E81D478" name="Saradnici_PK">
+<createdBy>test</createdBy>
+<createdTime>2022-10-17 18:27:44 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="569E5CE9-2F58-53B3-7A47-42046DD13D35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

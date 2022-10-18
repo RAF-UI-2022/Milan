@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Nesto" id="CC73AE76-F456-461A-BBC1-6CB2D0D7DF97" version="3.5">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 09:53:05 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CC73AE76-F456-461A-BBC1-6CB2D0D7DF97</designId>
+</OSDM_Design>

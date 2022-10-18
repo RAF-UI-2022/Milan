@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="777FCBA2-7EDD-8C9C-BCFF-F6EBC49BCA40" mainViewID="6497FBD1-7DEF-86C4-29E5-39BE52BFDA5B">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 09:53:05 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

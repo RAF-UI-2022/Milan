@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36F4EFF3-4243-7C40-D705-DED4C6E607BA" name="Poseta">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:04:03 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Objerkat_ID objekta" id="92F709DA-DABD-82F7-4540-429F742DB3D9">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:24:35 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aktivan Član_Broj naloga" id="F0714B0D-C989-CE69-0468-CE0240520C9E">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:27:11 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B46EAB58-645D-7857-6850-22B5E0460D2F" name="Poseta_PK">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:24:59 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92F709DA-DABD-82F7-4540-429F742DB3D9"/>
+<colUsage columnID="F0714B0D-C989-CE69-0468-CE0240520C9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

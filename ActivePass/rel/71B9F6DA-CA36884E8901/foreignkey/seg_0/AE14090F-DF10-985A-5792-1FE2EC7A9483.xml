@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AE14090F-DF10-985A-5792-1FE2EC7A9483" containerWithKeyObject="228C7F8B-2EC4-9E41-7F8D-CFA8D27BA2D9" localFKIndex="8BB3CC89-8FC4-5AEE-A2A0-0F12F42A709C" name="Objerkat_Tip Objekta_FK">
+<createdBy>test</createdBy>
+<createdTime>2022-10-17 18:04:08 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<referredTableLongName>Tip Objekta</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>44E68AA0-9B34-FF5F-F57C-AEF90258867A</referredTableID>
+<keyObject>8189FF9D-6AEA-6E34-0DA8-08654E25CBF3</keyObject>
+<referredKeyID>8189FF9D-6AEA-6E34-0DA8-08654E25CBF3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID tipa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

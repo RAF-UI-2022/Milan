@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D4A1C64-6740-A673-CD81-99A0786A47A8" name="Firma">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:04:21 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PIB" id="48B9BB2A-1164-DBAB-6999-5A4161DEC55B">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:05:42 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime" id="4FAF3ECB-A090-FC3D-DA21-4D097B88EA24">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:05:42 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zemlja osnivanja" id="26EDF575-630C-0A80-B364-1EDF3834FE13">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:06:21 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D6E80F7-E86F-FE01-5A44-8E9E4DF72322" name="Firma_PK">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:05:42 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48B9BB2A-1164-DBAB-6999-5A4161DEC55B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="228C7F8B-2EC4-9E41-7F8D-CFA8D27BA2D9" name="Objerkat">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 09:53:33 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ocena" id="67730046-796C-2801-4D6B-D22CA1E20D1D">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 09:57:18 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID objekta" id="D8384CC5-45D6-65F0-307B-06EF7D904DB2">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 09:57:18 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Firma_PIB" id="44CEFAA0-5C16-E58D-8FA6-4ACF0760E5A8">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:28:20 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36E91209-2A80-AD24-CE17-DE1D3566C843" referredColumn="48B9BB2A-1164-DBAB-6999-5A4161DEC55B"/>
+</associations>
+</Column>
+<Column name="Tip Objekta_ID tipa" id="7F5E47B9-F33B-EE4D-8523-8B6B1F44A603">
+<createdBy>test</createdBy>
+<createdTime>2022-10-17 18:04:08 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE14090F-DF10-985A-5792-1FE2EC7A9483" referredColumn="7F488778-7ABD-B6E1-26B8-04EF98006B8B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="834E5FD7-FD77-49F1-AECE-50DD71FA1F2A" name="Objerkat_PK">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 09:57:18 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8384CC5-45D6-65F0-307B-06EF7D904DB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2DF66E9-8975-DFD5-A6A4-77EB1201EE87" name="Objerkat_Firma_FK">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:28:20 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44CEFAA0-5C16-E58D-8FA6-4ACF0760E5A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BB3CC89-8FC4-5AEE-A2A0-0F12F42A709C" name="Objerkat_Tip Objekta_FK">
+<createdBy>test</createdBy>
+<createdTime>2022-10-17 18:04:08 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F5E47B9-F33B-EE4D-8523-8B6B1F44A603"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

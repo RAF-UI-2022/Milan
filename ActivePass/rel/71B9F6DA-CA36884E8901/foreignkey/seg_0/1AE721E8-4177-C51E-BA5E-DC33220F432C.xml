@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1AE721E8-4177-C51E-BA5E-DC33220F432C" containerWithKeyObject="3A21E9A9-7507-F9E7-D52C-06D867B44C49" localFKIndex="22B104CC-D431-D677-062F-52F653D7AA13" name="paket">
+<createdBy>test</createdBy>
+<createdTime>2022-10-14 10:13:40 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<referredTableLongName>Tip Člana</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>699E0E6F-FE8A-F450-CD12-9483CBE18124</referredTableID>
+<keyObject>A4E8DD69-5BBB-7CA7-3AE6-2CB3FA6A7FBA</keyObject>
+<referredKeyID>A4E8DD69-5BBB-7CA7-3AE6-2CB3FA6A7FBA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID tipa člana</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

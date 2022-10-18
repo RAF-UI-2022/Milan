@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C23FEA9E-86EF-FAC6-5015-42F63683DBED" name="Komentar">
+<createdBy>test</createdBy>
+<createdTime>2022-10-17 18:11:09 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tekst komentara" id="0EB0920C-0300-8C7C-49A4-BD7F3ED7F199">
+<createdBy>test</createdBy>
+<createdTime>2022-10-17 18:14:26 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID Komentar" id="C3F8E70F-40A4-ADEA-5007-C01CDAA05546">
+<createdBy>test</createdBy>
+<createdTime>2022-10-17 18:14:26 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ocena" id="77F5EE11-B988-647E-C90D-131C986C6CD0">
+<createdBy>test</createdBy>
+<createdTime>2022-10-17 18:14:26 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="260AA118-11B7-1E0B-31F6-BC28274CA60F" name="Komentar_PK">
+<createdBy>test</createdBy>
+<createdTime>2022-10-17 18:14:26 UTC</createdTime>
+<ownerDesignName>Nesto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3F8E70F-40A4-ADEA-5007-C01CDAA05546"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
